@@ -1,3 +1,12 @@
+
+# Anotaciones #
+
+docker-compose -f cms_custom-ports.yml up -d
+
+tar --strip-components=1 -zxvf xibo-docker.tar.gz
+
+
+
 # Xibo Docker
 
 [Docker](https://docker.com/) is an application to package and run any
